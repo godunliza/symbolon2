@@ -1,0 +1,96 @@
+
+@font-face {
+  font-family: OpenSansCondensed-Light; /* Имя шрифта */
+  src: url(/fonts/OpenSansCondensed-Light.ttf); /* Путь к файлу со шрифтом */
+  }
+ @font-face {
+  font-family: Oswald-Medium; /* Имя шрифта */
+  src: url(/fonts/Oswald-Medium.ttf); /* Путь к файлу со шрифтом */
+  }
+body
+{
+	background-image: url(../office.jpg);
+	
+	background-attachment: fixed;
+
+}
+ul
+{
+			list-style: none;
+			padding: 0;
+			margin :0;
+}
+		li
+		{
+			margin-top: 1%;
+		}
+		
+.mainblock
+{
+//background-image: url(../office.jpg) ;
+	
+}
+.zag
+{
+	 font-family: Oswald-Medium;
+	 font-size:60px;
+}
+	
+		.blocktodo
+		{
+			width: 80%;
+			margin-left: 10%;
+		}
+		.todoinp
+		{
+			width: 100%;
+			height: 25px;
+		}
+		.todobtn
+
+		{
+			font-family: OpenSansCondensed-Light;
+			font-size: 25px;
+			
+			background-color: black;
+			
+			color: white;
+			padding-left:10px;
+			padding-right:10px;
+			}	
+.todobtn:hover
+{
+	background-color: rgba(255,255,255,0.7);
+	color: black;
+}
+.cursor_p
+{
+	cursor: pointer;
+}
+.li{
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	height: 10vh;
+	background-color: rgba(1,1,1,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 10px;
+	padding-left: 10px;
+	padding-top: 25px;
+	font-family: OpenSansCondensed-Light;
+}
+.li:hover
+{
+box-shadow: 0 0 10px rgba(0,0,0,0.8);	
+}
+i
+{
+	//display: inline-block;
+	float: right;
+	margin-right: 20px;
+	//position: absolute;
+}
+i:hover
+{
+	color: #b8cbda;
+}
